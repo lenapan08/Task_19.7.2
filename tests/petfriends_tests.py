@@ -15,7 +15,7 @@ def test_get_api_key_for_valid_user(email = valid_email, password = valid_passwo
     assert status == 200
     assert 'key' in result
 
-def test_get_api_key_for_not_valid_email(email = 'panaskoelena106gmail.com', password = valid_password):
+def test_get_api_key_for_not_valid_email(email = 'lenapan0809mail.ru', password = valid_password):
     """Тест проверяет получение ошибки 403  и отсутсвие ключа в ответе на запрос при введении
     невалидной эл.почты и валидного пароля"""
 
@@ -37,7 +37,7 @@ def test_get_api_key_for_empty_password(email = valid_email, password = ''):
     assert status == 403
     assert 'key' not in result
 
-def test_get_api_key_for_not_valid_password(email = valid_email, password ='timyrka2705'):
+def test_get_api_key_for_not_valid_password(email = valid_email, password ='tima'):
     """Тест проверяет получение ошибки 403  и отсутсвие ключа в ответе на запрос при введении
     валидной эл.почты и невалидного пароля"""
 
