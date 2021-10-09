@@ -1,5 +1,5 @@
 
-valid_email = 'panaskoelena106@gmail.com'
-valid_password = 'Timyrka2705'
+valid_email = 'lenapan0809@mail.ru'
+valid_password = 'Tima'
 
 
